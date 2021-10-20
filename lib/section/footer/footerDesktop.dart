@@ -19,7 +19,7 @@ class FooterDesktop extends StatelessWidget {
           InkWell(
             onTap: () => openLink("https://s.id/HSzQT"),
             child: Image.asset(
-              "logo.png",
+              "assets/logo.png",
               width: height * 0.1,
               height: height * 0.1,
               color: ThemeSwitcher.of(context).isDarkMode ? Colors.white : Colors.black,
