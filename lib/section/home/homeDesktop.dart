@@ -39,7 +39,7 @@ class _HomeDesktopState extends State<HomeDesktop> {
             Container(
               height: height,
               width: width,
-              child: ImageLoader(image: getRandomCover(), fit: BoxFit.fill,),
+              child: Image.asset(getRandomCover(), fit: BoxFit.fill)
             ),
             Positioned(
               top: width < 1200 ? height * 0.15 : height * 0.1,
