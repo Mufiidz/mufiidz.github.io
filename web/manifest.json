@@ -1,11 +1,11 @@
 {
-    "name": "myporto",
-    "short_name": "myporto",
+    "name": "Rifqi Mufidianto Portfolio",
+    "short_name": "Rifqi Mufidianto",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "My Web Porto.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
