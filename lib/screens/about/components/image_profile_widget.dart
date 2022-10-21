@@ -8,7 +8,7 @@ class ImageProfileWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return FractionallySizedBox(
       alignment: Alignment.centerRight,
-      widthFactor: 0.6,
+      widthFactor: 0.65,
       child: Card(
         elevation: 10,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),

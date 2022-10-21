@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:myporto/screens/home/home_screen.dart';
 import 'package:myporto/screens/links/links_screen.dart';
-import 'package:myporto/screens/unknown_screen.dart';
 
 part 'app_route.gr.dart';
 
@@ -10,7 +9,6 @@ part 'app_route.gr.dart';
   AutoRoute(page: HomeScreen, initial: true),
   AutoRoute(path: LinksScreen.name, page: LinksScreen, fullMatch: true),
   RedirectRoute(path: '/link', redirectTo: LinksScreen.name),
-  AutoRoute(path: '/*', page: UnknownScreen),
 ])
 class AppRoute extends _$AppRoute {
   AppRoute._();

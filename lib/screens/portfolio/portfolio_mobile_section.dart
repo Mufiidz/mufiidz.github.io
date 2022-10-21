@@ -52,7 +52,7 @@ class PortfolioMobileSection extends StatelessWidget {
                         crossAxisCount: 2,
                         childAspectRatio: context.mediaSize.width /
                             context.mediaSize.height /
-                            (context.mediaSize.width >= 300 ? 0.4 : 0.3),
+                            (context.mediaSize.width >= 400 ? 0.4 : 0.3),
                         crossAxisSpacing: 10,
                         mainAxisSpacing: 3,
                         children:

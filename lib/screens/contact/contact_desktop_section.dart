@@ -57,7 +57,7 @@ class ContactDesktopSection extends StatelessWidget {
   _sendEmail() {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'mofedz@pm.me',
+      path: 'pm@mufidz.my.id',
       query: encodeQueryParameters(<String, String>{
         'subject': 'Hello Rifqi Mufidianto ( Mufidz )',
         'body': 'Hello Rifqi! (write message here)'

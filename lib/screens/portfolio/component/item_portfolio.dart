@@ -47,7 +47,6 @@ class _ItemPortfolioState extends State<ItemPortfolio> {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: GoogleFonts.nunito(
-                        textStyle: context.textTheme.headlineMedium,
                         fontSize: widget.sizeTitle,
                         fontWeight: FontWeight.w800),
                   ),

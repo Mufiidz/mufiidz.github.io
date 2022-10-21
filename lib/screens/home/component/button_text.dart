@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ButtonText extends StatelessWidget {
   final String text;
@@ -32,7 +33,7 @@ class ButtonText extends StatelessWidget {
           child: Text(
             text,
             textScaleFactor: 1,
-            style: const TextStyle(
+            style: GoogleFonts.nunito(
               fontSize: 16,
               fontWeight: FontWeight.w600,
             ),

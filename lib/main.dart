@@ -12,7 +12,6 @@ import 'bloc/theme_mode_bloc.dart';
 import 'di/main_module.dart';
 
 void main() async {
-  FirebaseConfig.setupFirebase();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: FirebaseConfig.options);
   setUrlStrategy(PathUrlStrategy());
